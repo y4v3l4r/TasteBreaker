@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colors"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Explore"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:paddingVertical="30dp"
+        android:background="#99141414"
+        android:gravity="center_horizontal"
+        android:text="Explore New Music!"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/Lofi"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:paddingVertical="50dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="150dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center_horizontal"
+        android:onClick="openLofiActivity"
+        android:text="Lofi"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+    />
+
+    <TextView
+        android:id="@+id/Rock"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:paddingVertical="50dp"
+        android:layout_marginStart="207dp"
+        android:layout_marginTop="150dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center_horizontal"
+        android:onClick="openRockActivity"
+        android:text="Rock"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+       />
+
+    <TextView
+        android:id="@+id/HipHop"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:paddingVertical="50dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="300dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center_horizontal"
+        android:onClick="openHipHopActivity"
+        android:text="HipHop"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/Oldies"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:paddingVertical="50dp"
+        android:layout_marginStart="207dp"
+        android:layout_marginTop="300dp"
+        android:background="@android:color/holo_purple"
+        android:gravity="center_horizontal"
+        android:onClick="openOldiesActivity"
+        android:text="Oldies"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+</RelativeLayout>
