@@ -15,10 +15,10 @@ public class RockActivity extends AppCompatActivity {
         setContentView(R.layout.activity_rock);
 
         ArrayList<CategoryItem> Rock = new ArrayList();
-        Rock.add(new CategoryItem("The Beatles", R.drawable.beatles));
-        Rock.add(new CategoryItem("Sparks", R.drawable.sparks));
-        Rock.add(new CategoryItem("Electric Light Orchestra", R.drawable.elo));
-        Rock.add(new CategoryItem("Queen", R.drawable.queen));
+        Rock.add(new CategoryItem("The Beatles", R.drawable.beatles, R.raw.standing));
+        Rock.add(new CategoryItem("Sparks", R.drawable.sparks, R.raw.sparks));
+        Rock.add(new CategoryItem("Electric Light Orchestra", R.drawable.elo, R.raw.bluesky));
+        Rock.add(new CategoryItem("Queen", R.drawable.queen, R.raw.queen));
         Rock.add(new CategoryItem("Saint Motel", R.drawable.motel));
         Rock.add(new CategoryItem("Imagine Dragons", R.drawable.dragons));
         Rock.add(new CategoryItem("The Beach Boys", R.drawable.beach));

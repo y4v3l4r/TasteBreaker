@@ -18,11 +18,11 @@ public class LofiActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lofi);
 
         ArrayList<CategoryItem> Lofi = new ArrayList();
-        Lofi.add(new CategoryItem("Tomppabeats", R.drawable.tomppab));
-        Lofi.add(new CategoryItem("The Deli", R.drawable.delii));
-        Lofi.add(new CategoryItem("Elijah Who", R.drawable.whoo));
-        Lofi.add(new CategoryItem("Jinsang", R.drawable.sang));
-        Lofi.add(new CategoryItem("Rook1e", R.drawable.rook1ee));
+        Lofi.add(new CategoryItem("Tomppabeats", R.drawable.tomppab, R.raw.mondayloop));
+        Lofi.add(new CategoryItem("The Deli", R.drawable.delii, R.raw.the_deli));
+        Lofi.add(new CategoryItem("Elijah Who", R.drawable.whoo, R.raw.feeling));
+        Lofi.add(new CategoryItem("Jinsang", R.drawable.sang, R.raw.affection));
+        Lofi.add(new CategoryItem("Rook1e", R.drawable.rook1ee, R.raw.gradesoda));
         Lofi.add(new CategoryItem("Potsu", R.drawable.potsuu));
         Lofi.add(new CategoryItem("Eevee", R.drawable.eevee));
         Lofi.add(new CategoryItem("Prima", R.drawable.primaa));
