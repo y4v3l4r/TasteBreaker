@@ -1,5 +1,5 @@
 # TasteBreaker
-Everybody has a favorite music app that they like to use to play some tunes.
+Everybody has a their go-to music app that they enjoy using to play their favorite tunes.
 As an avid  Spotify user, I was inspired to create a rendition of Spotify, which I named TasteBreaker, 
 in order to expose the user to new song recommendations.
 This app was created in Android Studio, where I used XML and Java to design the apps layout, upload and add various album covers/artists music, and create an interactive interface for the user 
