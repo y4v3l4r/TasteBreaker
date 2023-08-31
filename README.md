@@ -16,5 +16,5 @@ Layout - programmed in XML, this contains code used to create the UI layout of e
 
 Raw - contains the uploads of mp3 songs of the artists
 
-This was the project that inspired me to want to pursure UI design. Thank you for reading this far!
+This was the project that inspired me to want to pursure UI design and software engineering. Thank you for reading this far!
 
